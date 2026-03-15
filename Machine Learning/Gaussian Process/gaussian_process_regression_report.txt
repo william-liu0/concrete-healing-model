@@ -1,0 +1,17 @@
+Gaussian Process Regression Report
+==================================================
+Generated on: 2025-11-28 16:19:23
+
+Model Parameters:
+  Kernel: RBF (Radial Basis Function)
+  Alpha (noise level): 1e-6
+  Normalize y: True
+  Restarts optimizer: 10
+  Training time: 5.24 seconds
+
+Performance Metrics:
+  Mean Absolute Error (MAE): 22253.035055
+  Mean Squared Error (MSE): 1020017463.185984
+  Root Mean Squared Error (RMSE): 31937.712241
+  R² Score: 0.997351
+  Mean prediction uncertainty (std): 29508.559741

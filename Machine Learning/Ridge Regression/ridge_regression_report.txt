@@ -1,0 +1,12 @@
+Ridge Regression Report
+==================================================
+Generated on: 2025-11-28 16:19:23
+
+Model Parameters:
+  Alpha (regularization strength): 1.0
+
+Performance Metrics:
+  Mean Absolute Error (MAE): 252023.181358
+  Mean Squared Error (MSE): 88435225760.042297
+  Root Mean Squared Error (RMSE): 297380.607572
+  R² Score: 0.770293

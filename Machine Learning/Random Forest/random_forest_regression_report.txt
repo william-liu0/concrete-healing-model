@@ -1,0 +1,8 @@
+Random Forest Regression Report
+==================================================
+Generated on: 2025-11-28 16:19:23
+
+Mean Absolute Error (MAE): 3192.081818
+Mean Squared Error (MSE): 23694420.518182
+Root Mean Squared Error (RMSE): 4867.691498
+R² Score: 0.999938

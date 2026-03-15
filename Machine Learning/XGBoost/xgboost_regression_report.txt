@@ -1,0 +1,21 @@
+XGBoost (Gradient Boosted Trees) Regression Report
+==================================================
+Generated on: 2025-11-28 16:19:23
+
+Model Parameters:
+  n_estimators: 100
+  max_depth: 6
+  learning_rate: 0.1
+  objective: reg:squarederror
+  Training Time: 0.28 seconds
+
+Performance Metrics:
+  Mean Absolute Error (MAE): 2786.359659
+  Mean Squared Error (MSE): 18351623.518963
+  Root Mean Squared Error (RMSE): 4283.879494
+  R² Score: 0.999952
+
+Feature Importance:
+  Feature 1: 0.005719
+  Feature 2: 0.000174
+  Feature 3: 0.994107

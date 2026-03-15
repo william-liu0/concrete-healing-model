@@ -1,0 +1,44 @@
+MODEL PERFORMANCE COMPARISON DATA (REGRESSION)
+==================================================
+Generated on: 2025-11-28 16:19:28
+
+Model Performance Metrics:
+------------------------------
+
+Gaussian Process:
+  R² Score: 0.997351
+  MAE: 22253.035055
+  MSE: 1020017463.185984
+  RMSE: 31937.712241
+
+Ridge Regression:
+  R² Score: 0.770293
+  MAE: 252023.181358
+  MSE: 88435225760.042297
+  RMSE: 297380.607572
+
+Random Forest:
+  R² Score: 0.999938
+  MAE: 3192.081818
+  MSE: 23694420.518182
+  RMSE: 4867.691498
+
+XGBoost:
+  R² Score: 0.999952
+  MAE: 2786.359659
+  MSE: 18351623.518963
+  RMSE: 4283.879494
+
+Neural Network:
+  R² Score: 0.941152
+  MAE: 125651.428409
+  MSE: 22655921745.835087
+  RMSE: 150518.841830
+
+==================================================
+Chart Details:
+- Bar colors: Single blue color (#1f77b4) for all models
+- R² = 1.0: Perfect predictions
+- R² = 0.0: Predictions as good as mean baseline
+- R² < 0.0: Predictions worse than mean baseline
+- Heatmap visualization with RdYlGn color scheme

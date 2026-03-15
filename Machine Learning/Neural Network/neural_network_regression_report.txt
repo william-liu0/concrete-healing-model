@@ -1,0 +1,17 @@
+Neural Network Regression Report
+==================================================
+Generated on: 2025-11-28 16:19:27
+
+Model Parameters:
+- Architecture: 3-32-32-1 (3 inputs -> 32 -> 32 -> 1 output)
+- Activation: ReLU (hidden layers), Linear (output)
+- Dropout: 0.2
+- Learning Rate: 0.001
+- Batch Size: 32
+- Epochs: 100
+- Training Time: 3.75 seconds
+
+Mean Absolute Error (MAE): 125651.428409
+Mean Squared Error (MSE): 22655921745.835087
+Root Mean Squared Error (RMSE): 150518.841830
+R² Score: 0.941152

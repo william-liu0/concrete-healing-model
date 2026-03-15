@@ -1,0 +1,21 @@
+MEAN ABSOLUTE SHAP VALUES SUMMARY
+==================================================
+Model: Gaussian Process
+Generated on: 2025-11-28 16:20:00
+
+Values are in seconds (same units as healing time).
+Higher values indicate greater average impact on healing time prediction.
+
+--------------------------------------------------
+Feature Rankings (sorted by impact, highest first):
+--------------------------------------------------
+1. Gamma: 1.047561e+04 seconds
+2. Sigma: 4.226437e+04 seconds
+3. Beta: 5.760395e+05 seconds
+
+==================================================
+Raw Values (unsorted):
+--------------------------------------------------
+Sigma: 4.226437e+04 seconds
+Gamma: 1.047561e+04 seconds
+Beta: 5.760395e+05 seconds

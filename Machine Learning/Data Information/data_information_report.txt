@@ -1,0 +1,93 @@
+COMPREHENSIVE DATA INFORMATION REPORT (REGRESSION)
+============================================================
+Generated on: 2025-11-28 16:19:27
+
+1. DATASET OVERVIEW
+------------------------------
+Total samples: 1,100
+Features: 3 (sigma, gamma, beta)
+Target variable: healing_time (healing time in seconds)
+Data source: sgb_healing_time_data.csv
+Task type: Regression
+
+2. TARGET VARIABLE STATISTICS (FULL DATASET)
+----------------------------------------
+Mean: 2227794.545455 seconds
+Std: 651372.970169 seconds
+Min: 1057200.000000 seconds
+Max: 2979900.000000 seconds
+Median: 2640450.000000 seconds
+
+3. DATA SPLIT INFORMATION
+------------------------------
+Training set: 60% (660 samples)
+Validation set: 20% (220 samples)
+Test set: 20% (220 samples)
+
+4. TRAINING SET TARGET STATISTICS
+------------------------------
+Mean: 2234388.181818 seconds
+Std: 659334.251931 seconds
+Min: 1057200.000000 seconds
+Max: 2979900.000000 seconds
+Median: 2646900.000000 seconds
+
+5. VALIDATION SET TARGET STATISTICS
+------------------------------
+Mean: 2200722.272727 seconds
+Std: 655310.905396 seconds
+Min: 1057500.000000 seconds
+Max: 2975400.000000 seconds
+Median: 2622600.000000 seconds
+
+6. TEST SET TARGET STATISTICS
+------------------------------
+Mean: 2235085.909091 seconds
+Std: 620476.675726 seconds
+Min: 1057800.000000 seconds
+Max: 2947800.000000 seconds
+Median: 2642700.000000 seconds
+
+7. FEATURE STATISTICS
+------------------------------
+sigma:
+  - Mean: 0.027500
+  - Std: 0.014368
+  - Min: 0.005000
+  - Max: 0.050000
+  - Median: 0.027500
+
+gamma:
+  - Mean: 0.027500
+  - Std: 0.014368
+  - Min: 0.005000
+  - Max: 0.050000
+  - Median: 0.027500
+
+beta:
+  - Mean: 0.785398
+  - Std: 0.496955
+  - Min: 0.000000
+  - Max: 1.570796
+  - Median: 0.785398
+
+8. PREPROCESSING DETAILS
+------------------------------
+Standardization: StandardScaler applied to all features
+Oversampling: Not applicable (regression task)
+Validation and test sets: No preprocessing applied (preserves real distribution)
+
+9. MODEL PARAMETERS
+------------------------------
+Gaussian Process Regressor: RBF kernel, alpha=1e-6
+Ridge Regression: alpha=1.0 (L2 regularization)
+Random Forest Regressor: n_estimators=100
+XGBoost Regressor: Gradient Boosted Trees, n_estimators=100, max_depth=6
+Neural Network: 3-32-32-1 architecture, ReLU activation, dropout=0.2, lr=0.001, batch_size=32, epochs=100
+
+10. TECHNICAL DETAILS
+------------------------------
+Random seed: 42 (for reproducibility)
+Data type: Float64
+Missing values: 0
+Memory usage: 0.042088 MB

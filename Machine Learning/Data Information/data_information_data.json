@@ -1,0 +1,80 @@
+{
+  "dataset_overview": {
+    "total_samples": 1100,
+    "features": 3,
+    "feature_names": [
+      "sigma",
+      "gamma",
+      "beta"
+    ],
+    "target_variable": "healing_time",
+    "task_type": "regression"
+  },
+  "target_statistics": {
+    "full_dataset": {
+      "mean": 2227794.5454545454,
+      "std": 651372.9701690527,
+      "min": 1057200.0,
+      "max": 2979900.0,
+      "median": 2640450.0
+    },
+    "training_set": {
+      "mean": 2234388.1818181816,
+      "std": 659334.2519310076,
+      "min": 1057200.0,
+      "max": 2979900.0,
+      "median": 2646900.0
+    },
+    "validation_set": {
+      "mean": 2200722.272727273,
+      "std": 655310.9053962084,
+      "min": 1057500.0,
+      "max": 2975400.0,
+      "median": 2622600.0
+    },
+    "test_set": {
+      "mean": 2235085.909090909,
+      "std": 620476.6757257102,
+      "min": 1057800.0,
+      "max": 2947800.0,
+      "median": 2642700.0
+    }
+  },
+  "data_splits": {
+    "training": {
+      "samples": 660,
+      "percentage": 60.0
+    },
+    "validation": {
+      "samples": 220,
+      "percentage": 20.0
+    },
+    "test": {
+      "samples": 220,
+      "percentage": 20.0
+    }
+  },
+  "feature_statistics": {
+    "sigma": {
+      "mean": 0.02749999999999998,
+      "std": 0.014367938982667108,
+      "min": 0.005,
+      "max": 0.0499999999999999,
+      "median": 0.0275
+    },
+    "gamma": {
+      "mean": 0.02749999999999998,
+      "std": 0.014367938982667156,
+      "min": 0.005,
+      "max": 0.0499999999999999,
+      "median": 0.0275
+    },
+    "beta": {
+      "mean": 0.7853981633974483,
+      "std": 0.4969553534485391,
+      "min": 0.0,
+      "max": 1.5707963267948966,
+      "median": 0.7853981633974483
+    }
+  }
+}
